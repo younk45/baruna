@@ -1,0 +1,338 @@
+/*
+    Template Name: Baruna
+    Template URI: -
+    Description: -
+    Author: BayuSlari
+    Author URI: bayuslari.com
+    Version: 1.0
+*/
+/**
+ *
+ * GENERAL
+ *
+ */
+html {
+  font-size: 16px;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Avenir';
+  font-weight: 500;
+  letter-spacing: .1px; }
+
+img {
+  max-width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500; }
+
+p {
+  font-weight: 300; }
+
+a {
+  transition: all .3s ease;
+  text-decoration: none; }
+
+/* Colours */
+/* Section */
+h3.section-title {
+  margin-bottom: 60px; }
+
+.section__content {
+  padding: 80px 0; }
+
+.section__content--full > .container-fluid > .row > * {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.section__content--full .section-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.section__content--full .section--blue {
+  background-image: linear-gradient(-134deg, #3023ae 0, #2ae2de 100%); }
+
+.section--blue {
+  background-color: #446CB3;
+  color: #ffffff; }
+  .section--blue.section--transparent {
+    position: relative; }
+    .section--blue.section--transparent:before {
+      content: '';
+      background-image: linear-gradient(-134deg, #3023ae 0, #2ae2de 100%);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      opacity: .9; }
+
+.section--grey {
+  background-color: #f5f5f5; }
+
+.section--darkblue {
+  background-color: #3f62a2; }
+
+/**
+ *
+ * COMPONENTS
+ *
+ */
+/* Nav */
+.navbar-brand {
+  padding: 0; }
+  .navbar-brand img {
+    height: 100px;
+    object-fit: contain; }
+
+.navbar > .container {
+  position: relative; }
+
+.nav__phone {
+  position: absolute;
+  right: 22px;
+  top: 0px;
+  background: #0091d8;
+  border-radius: 5px; }
+  .nav__phone > a {
+    color: #fff !important;
+    padding: .2rem;
+    font-size: 14px;
+    display: inline-block; }
+
+/* Carousel */
+.carousel-item img {
+  height: 550px;
+  object-fit: cover; }
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 50px;
+  padding: 20px; }
+
+/* Advantage */
+.advantage__item {
+  position: relative;
+  transition: all .3s ease;
+  margin-bottom: 30px; }
+  .advantage__item:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 20px;
+    margin: -5px 0 5px; }
+    .advantage__item:hover .advantage__title {
+      opacity: 0; }
+  .advantage__item:hover .advantage__text {
+    opacity: 1;
+    top: 50%; }
+  .advantage__item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+    text-align: center;
+    opacity: 0;
+    transition: all .3s ease; }
+  .advantage__item:hover:before {
+    opacity: 1; }
+
+.advantage__title {
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold; }
+
+.section--blue .advantage__title {
+  background: #ffffff !important;
+  color: #446CB3 !important; }
+
+.advantage__text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+  transition: all .3s ease;
+  text-align: center;
+  color: #ffffff; }
+
+@media (min-width: 993px) {
+  .advantage__section {
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+/* Service */
+.service__item {
+  text-align: center;
+  position: relative; }
+  .service__item img {
+    height: 100px;
+    width: auto;
+    transition: all .3s ease; }
+  .service__item:hover img {
+    margin: -5px 0 5px; }
+  .service__item a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .3s ease; }
+  .service__item:hover {
+    color: #446CB3; }
+
+/* Testimoni */
+.testi__img {
+  border-radius: 50%;
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+  width: auto !important;
+  margin-bottom: 15px; }
+
+.testi__slider {
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.testi__name {
+  font-size: 16px; }
+
+.testi__text {
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin: 0 auto; }
+
+.testi__job {
+  font-size: 14px; }
+
+.owl-nav {
+  display: block !important; }
+
+.owl-prev img,
+.owl-next img {
+  height: 20px; }
+
+.owl-prev,
+.owl-next {
+  background: transparent !important;
+  transition: all .3s ease; }
+  .owl-prev:hover,
+  .owl-next:hover {
+    background: #f5f5f5 !important; }
+
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0; }
+
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0; }
+
+/* Portfolio */
+.portfolio__slider {
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.portfolio__item img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center; }
+
+.portfolio__caption {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); }
+
+/* Klien */
+.section__content--small {
+  padding: 20px; }
+
+.client__item img {
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain; }
+
+/* Working Area */
+.working__area h3 {
+  margin-bottom: 0; }
+
+.working__area img {
+  height: 20px;
+  margin-bottom: 5px; }
+
+.working__area ul {
+  margin: 0; }
+
+.working__area ul li.working__area-item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 22px; }
+
+.working__area > .container > .row > * {
+  padding: 45px; }
+
+/* Footer */
+footer {
+  background-color: #446CB3;
+  color: #ffffff; }
+  footer .navbar-brand img {
+    height: 100px; }
+  footer a {
+    opacity: .7;
+    color: #ffffff !important; }
+    footer a:hover {
+      opacity: 1; }
+
+.list-menu-footer {
+  margin-top: 20px; }
+  .list-menu-footer .navbar-nav {
+    flex-direction: row;
+    justify-content: center; }
+  .list-menu-footer .nav-link {
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 0 10px; }
+
+.footer__top {
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  .footer__top .navbar-brand {
+    margin: 0 auto 10px;
+    display: block;
+    text-align: center; }
+
+.footer__bottom {
+  padding: 10px 0;
+  background-color: #3f62a2; }
+  .footer__bottom a:hover {
+    color: #446CB3; }
+
+/*# sourceMappingURL=style.css.map */
