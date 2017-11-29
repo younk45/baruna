@@ -57,14 +57,14 @@ h3.section-title { margin-bottom: 60px; }
 .carousel-caption { background: rgba(0, 0, 0, 0.5); bottom: 50px; padding: 20px; }
 
 /* Advantage */
-.advantage__item { position: relative; transition: all .3s ease; margin-bottom: 30px; }
+.advantage__item { position: relative; transition: all .3s ease; margin-bottom: 30px; -moz-filter:blur(5px); /*-o-filter:blur(5px); -ms-filter:blur(5px); filter:blur(5px);*/}
 .advantage__item:hover { box-shadow: rgba(0, 0, 0, 0.2) 0 15px 20px; margin: -5px 0 5px; }
 .advantage__item:hover .advantage__title { opacity: 0; }
 .advantage__item:hover .advantage__text { opacity: 1; top: 50%; }
 .advantage__item:before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); z-index: 0; text-align: center; opacity: 0; transition: all .3s ease; }
 .advantage__item:hover:before { opacity: 1; }
 
-.advantage__title { padding: 10px; text-align: center; z-index: 1; color: #ffffff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; }
+.advantage__title { padding: 10px; text-align: center; z-index: 1; color: #ffffff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; font-size: 20px; }
 
 .section--blue .advantage__title { background: #ffffff !important; color: #446CB3 !important; }
 
