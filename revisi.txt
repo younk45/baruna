@@ -1,15 +1,42 @@
+#####mas bim revision#####
+
 - font nya diganti
+carikan yang agak tegas gitu mas bim
+
 - di kasih foto di setiap detail Jasa, sebelahan sama deskripsi
-- logo nya , deskripsibaruna karya di ganti
+jadi misal jasa pengecatan, ntar disebelah deskripsi itu tak taruh foto orang sedang ngecat gitu mas bim
+
 
 tambahin di keunggulan baruna
 - harga Kompetitif
 - Hasil Berkualitas
+ini ntar jadi 6 di keunggulan baruna nya, yang sekarang kan cuma 4, ntar di bagi 3 colum 3 colum aja mas bim bisa
+gak terlalu panjang ke bawah, terus background nya di kasih agak shadow biar gak nutupin font nya yang warna putih di depan
 
+
+- di atas logo di tambahkan "Meterial yang kami gunakan"
+di atas logo2 sponsor yang bawah itu mas bim
+
+- font di nomor handphone, di agak besarkan
+ini buat nomor handphone yang paling atas
+
+- di cara-kerja.html dll itu, di kasih background belakang nya mirip seperti yang detail.html
+ini mas bim udah buat di detail.html, ini biar gak terlalu kosong aja halamannya
+
+- di halaman kontak, itu tambahin No. handphone, alamat
+ini di taruh di atas nya form kontak itu aja mas bim, di atur aja gimana baiknya
+
+
+#####buyung revision######
 
 - di logo waterproof di kasih seperti tetesan air
+ini buyung
+
 - di logo railing, di buat kayak pagar
+ini buyung aja
 
 - yang hubungi kami itu di kasih link langsung ke kontak
-- di atas logo di tambahkan "Materuial yang kami gunakan"
-- font di nomor handphone, di agak besarkan
+ini buyung aja
+
+- logo nya , deskripsibaruna karya di ganti
+ini buyung aja
