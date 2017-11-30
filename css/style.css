@@ -1,9 +1,10 @@
 /* Template Name: Baruna Template URI: - Description: - Author: BayuSlari Author URI: bayuslari.com Version: 1.0
 */
 /**  GENERAL  */
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 html { font-size: 16px; overflow-x: hidden; }
 
-body { font-family: 'Avenir'; font-weight: 500; letter-spacing: .1px; }
+body { font-family: 'Raleway', sans-serif; font-weight: 500; letter-spacing: .1px; }
 
 img { max-width: 100%; }
 
@@ -28,7 +29,12 @@ h3.section-title { margin-bottom: 60px; }
 .section--blue { background-color: #446CB3; color: #ffffff; }
 .section--blue.section--transparent { position: relative; }
 .section--blue.section--transparent:before { content: ''; background-image: linear-gradient(-134deg, #3023ae 0, #2ae2de 100%); position: absolute; top: 0; right: 0; bottom: 0; left: 0; display: block; opacity: .9; }
+.section--blue.section--transparent:after { content: ""; background: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; bottom: 0; right: 0; }
+.section--blue.section--transparent .container { position: relative; z-index: 100; }
 .section--blue h4 { font-size: 16px; font-weight: 200; }
+.section--blue .col-md-4 { margin: 0 0 30px; text-align: center; }
+.section--blue .col-md-4 img { width: 100px; height: 100px; object-fit: contain; margin: 0 0 20px; }
+.section--blue .col-md-4 h4 { font-weight: 600; text-transform: uppercase; }
 
 .section--grey { background-color: #f5f5f5; }
 
@@ -41,10 +47,10 @@ h3.section-title { margin-bottom: 60px; }
 
 .navbar > .container { position: relative; }
 
-.nav__phone { position: absolute; right: 22px; top: 0px; background: #0091d8; border-radius: 5px; }
-.nav__phone > a { color: #fff !important; padding: .3rem; font-size: 14px; display: inline-block; }
+.nav__phone { position: absolute; right: 22px; top: -10px; background: #0091d8; border-radius: 5px; font-family: sans-serif; }
+.nav__phone > a { color: #fff !important; padding: .3rem; font-size: 18px !important; display: inline-block; }
 
-.navbar-nav li a { text-transform: uppercase; font-size: 14px; }
+.navbar-nav li a { text-transform: uppercase; font-size: 16px; font-weight: 600; }
 
 /* Jasa Icon */
 .jasa__row { margin: 0; padding: 0; overflow: hidden; }
@@ -57,14 +63,14 @@ h3.section-title { margin-bottom: 60px; }
 .carousel-caption { background: rgba(0, 0, 0, 0.5); bottom: 50px; padding: 20px; }
 
 /* Advantage */
-.advantage__item { position: relative; transition: all .3s ease; margin-bottom: 30px; -moz-filter:blur(5px); /*-o-filter:blur(5px); -ms-filter:blur(5px); filter:blur(5px);*/}
+.advantage__item { position: relative; transition: all .3s ease; margin-bottom: 30px; }
 .advantage__item:hover { box-shadow: rgba(0, 0, 0, 0.2) 0 15px 20px; margin: -5px 0 5px; }
 .advantage__item:hover .advantage__title { opacity: 0; }
 .advantage__item:hover .advantage__text { opacity: 1; top: 50%; }
 .advantage__item:before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.4); z-index: 0; text-align: center; opacity: 0; transition: all .3s ease; }
 .advantage__item:hover:before { opacity: 1; }
 
-.advantage__title { padding: 10px; text-align: center; z-index: 1; color: #ffffff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; font-size: 20px; }
+.advantage__title { padding: 10px; text-align: center; z-index: 1; color: #ffffff; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-weight: bold; }
 
 .section--blue .advantage__title { background: #ffffff !important; color: #446CB3 !important; }
 
@@ -116,7 +122,9 @@ h3.section-title { margin-bottom: 60px; }
 .row__client .client__item img { height: 100px; width: 100%; height: auto; object-fit: contain; }
 
 /* Section Page */
-.section__page { background: #eee; }
+.section__page { background: #eee; position: relative; }
+.section__page .section__bg { position: absolute; top: 0; left: 0; right: 0; }
+.section__page .section__bg img { height: 400px; object-fit: cover; }
 .section__page .box { background: #fff; padding: 50px; }
 
 /* Working Area */
@@ -136,6 +144,8 @@ footer a:hover { opacity: 1; }
 .section__detail { position: relative; background: #eee; }
 .section__detail .section__bg { position: absolute; top: 0; left: 0; right: 0; }
 .section__detail .section__bg img { height: 500px; object-fit: cover; }
+.section__detail .content__bg { margin: -30px -50px 30px; }
+.section__detail .content__bg img { width: 100%; height: 400px; object-fit: cover; }
 .section__detail .sidebar--detail { background: #446CB3; padding: 15px; margin: 0; }
 .section__detail .sidebar--detail li { border-bottom: 1px dashed rgba(255, 255, 255, 0.1); padding: 2px 0; }
 .section__detail .sidebar--detail li:last-child { border: none; }
