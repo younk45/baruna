@@ -47,10 +47,10 @@ h3.section-title { margin-bottom: 60px; }
 
 .navbar > .container { position: relative; }
 
-.nav__phone { position: absolute; right: 22px; top: -10px; background: #0091d8; border-radius: 5px; font-family: sans-serif; }
+.nav__phone { position: absolute; right: 22px; top: -10px; background: #0091d8; border-radius: 5px; font-family: sans-serif; font-size: 14px;}
 .nav__phone > a { color: #fff !important; padding: .3rem; font-size: 18px !important; display: inline-block; }
 
-.navbar-nav li a { text-transform: uppercase; font-size: 16px; font-weight: 600; }
+.navbar-nav li a { text-transform: uppercase; font-size: 14px; font-weight: 600; }
 
 /* Jasa Icon */
 .jasa__row { margin: 0; padding: 0; overflow: hidden; }
