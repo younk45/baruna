@@ -138,7 +138,7 @@ h3.section-title { margin-bottom: 60px; }
 
 /* Footer */
 footer { background-color: #446CB3; color: #ffffff; }
-footer .navbar-brand img { height: 100px; }
+footer .navbar-brand img { height: 125px; }
 footer a { opacity: .7; color: #ffffff !important; }
 footer a:hover { opacity: 1; }
 
@@ -164,7 +164,7 @@ footer a:hover { opacity: 1; }
 .footer__top { padding-top: 40px; padding-bottom: 20px; }
 .footer__top .navbar-brand { margin: 0 auto 10px; display: block; text-align: center; }
 
-.footer__bottom { padding: 10px 0; background-color: #3f62a2; }
+.footer__bottom { padding: 10px 0; background-color: #3f62a2; font-size: 12px;}
 .footer__bottom a:hover { color: #446CB3; }
 
 /* RESPONSIVE */
