@@ -42,7 +42,7 @@ h3.section-title { margin-bottom: 60px; }
 /**  COMPONENTS  */
 /* Nav */
 .navbar-brand { padding: 0; }
-.navbar-brand img { height: 100px; object-fit: contain; }
+.navbar-brand img { height: 120px; object-fit: contain; }
 
 .navbar > .container { position: relative; }
 
